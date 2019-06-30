@@ -1,0 +1,343 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #F3F3F3;
+}
+header{
+  background-image: url(../img/sample2.jpg);
+  background-position: bottom;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  padding-top: 30px;
+}
+.logo{
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+.headerContainer{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px 30px 30px;
+}
+.log{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  margin: 20px;
+  cursor: pointer;
+}
+.headTitle{
+  text-align: center;
+  margin-top: 170px;
+}
+.headTitle h1{
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  letter-spacing: 4px;
+}
+.headTitle h1 span{
+  font-size: 54px;
+}
+.headTitle p{
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 10px;
+}
+header nav{
+margin-top: 160px;
+display: flex;
+justify-content: space-around;
+}
+.headerMenu{
+  text-decoration: none;
+  display: inline-block;
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  height: 40px;
+  width: 20%;
+  border: 1px solid #FFFFFF;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+}
+.headerTextBlock{
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+  background-color: #F3F3F3;
+  display: flex;
+}
+.headerTextBlock::after{
+  content: '';
+  position: absolute;
+  background-color: black;
+  padding-bottom: 100%;
+  width: 110%;
+  bottom: 0;
+  right: 0;
+  transform: rotate(6.5deg);
+  transform-origin: right bottom;
+  z-index: 2;
+}
+.textBlockLeft{
+  color: #000000;
+  margin-top: 130px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  width: 50%;
+  padding-left: 30px;
+  z-index: 3;
+}
+.textBlockRight{
+  color: #FFFFFF;
+  margin-top: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  width: 50%;
+  padding-right: 28px;
+  z-index: 3;
+}
+main section h3{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-weight: 100;
+}
+main section h3 span{
+  font-weight: bold;
+}
+.mainContent{
+  width: 100%;
+  height: 500px;
+  padding: 0 30px 0 30px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 0 50px 0;
+}
+.mainContentImg{
+  width: 50%;
+  height: 47%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 15px;
+}
+.like{
+  height: 25px;
+  width: 50px;
+  font-size: 12px;
+  color: #FFFFFF;
+  border: 1px solid white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.like:hover{
+  background-color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+.mainContentImg p{
+  align-self:flex-end;
+  font-family: 'Open Sans', sans-serif;
+  color: #FFFFFF;
+  font-size: 12px;
+}
+.newsBlockImg p{
+  align-self:flex-start;
+  font-family: 'Open Sans', sans-serif;
+  color: #FFFFFF;
+  font-size: 12px;
+}
+.newsBlockImg .like{
+  align-self:flex-end;
+}
+.boldText{
+  font-weight: bold;
+}
+.mainContentText1{
+  width: 50%;
+  height: 50%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-content: space-around;
+}
+.mainContentText2{
+  width: 50%;
+  height: 50%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: space-around;
+}
+.mainContentText1 p, .mainContentText2 p{
+  width: 80%;
+}
+.img1{
+  background-image: url(../img/sample-1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img2{
+  background-image: url(../img/sample-2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.newsBlock{
+  background-color: #FFFFFF;
+  height: 350px;
+  padding: 20px 0 0 20px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.newsBlockImg{
+  width: 18%;
+  height: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+}
+.loadNews{
+  width: 30%;
+  height: 40px;
+}
+.img3{
+  background-image: url(../img/news-list-1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img4{
+  background-image: url(../img/news-list-2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img5{
+  background-image: url(../img/news-list-3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img6{
+  background-image: url(../img/news-list-4.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.explore{
+  height: 25px;
+  width: 100%;
+  border: none;
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  background-color: #097774;
+  opacity: 0.8;
+}
+.explore:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+.loadNews{
+  border: none;
+  color: #FFFFFF;
+  background-color: #097774;
+  font-family: 'Open Sans', sans-serif;
+}
+.loadNews:hover{
+  background-color: #084d4a;
+  cursor: pointer;
+}
+.subscribe{
+  width: 100%;
+  height: 180px;
+  padding: 30px;
+}
+.subscribeText{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+.subscribeForm form{
+  display: flex;
+  justify-content: flex-end;
+}
+.subscribeForm form p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  margin: 10px;
+}
+#subscribeEmail{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  margin: 10px;
+  height: 30px;
+  padding-left: 5px;
+  background-color: #F3F3F3;
+  border: 1px solid black;
+}
+#subscribeEmail::placeholder{
+  color: #000000;
+}
+#subscribeButton{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 12px;
+  margin: 10px 0 10px 0;
+  height: 30px;
+  width: 70px;
+  border: none;
+  background-color: #097774;
+}
+#subscribeButton:hover{
+  cursor: pointer;
+  background-color: #084d4a;
+}
+footer{
+  height: 50px;
+  width: 100%;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer p{
+  font-family: 'Open Sans', sans-serif;
+  color: #9E9E9E;
+  font-size: 14px;
+}
+footer nav a{
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  color: #000000;
+  font-size: 14px;
+  margin-left: 15px;
+}
+footer nav a:hover{
+  cursor: pointer;
+}
+@media screen and (min-width: 1400px){
+  .mainContent {
+    height: 700px;
+  }
+  .mainContentText1, .mainContentText2{
+    font-size: 14px;
+  }
+  .newsBlock{
+    height: 500px;
+  }
+}
