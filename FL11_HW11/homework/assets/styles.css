@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.header p {
+  margin-top: 10px;
+  color: rgb(0, 162, 255);
+  font-size: 24px;
+  font-weight: bold;
+}
+#input-field {
+  width: 95%;
+  height: 40px;
+  border: 1px solid rgb(194, 190, 190);
+  border-radius: 3px;
+  padding: 4px;
+  margin-top: 5px;
+}
+#add-button {
+  color: rgb(194, 190, 190);
+  font-size: 40px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.actions-field {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+.list-row {
+  display: flex;
+  justify-content: space-between;
+}
+.check-and-text {
+  display: flex;
+}
+.check-box, .edit-row, .delete-row, .save-row, .edit-input {
+  font-size: 30px;
+  color: rgba(91, 195, 255, 0.801);
+  cursor: pointer;
+  margin: 10px 10px 10px 0;
+}
+.row-text {
+  font-size: 20px;
+  color: rgb(0, 162, 255);
+  margin: 15px 10px 10px 0;
+}
+.edit-input {
+  border: 1px solid rgb(194, 190, 190);
+  border-radius: 3px;
+  color: black;
+  font-size: 18px;
+  padding: 2px;
+  line-height: 25px;
+}
+hr {
+  margin: 10px 0 10px 0;
+  height: 5px;
+  background-color: rgba(91, 195, 255, 0.801);
+  border: none;
+  border-radius: 3px;
+}
